@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OAuth Authentication</title>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script>
+    function initializeAuth() {
+      const client = google.accounts.oauth2.initTokenClient({
+        client_id: 'YOUR_CLIENT_ID', // Replace with your Client ID
+        scope: 'https://www.googleapis.com/auth/spreadsheets',
+        callback: (response) => {
+          if (response.access_token) {
+            sessionStorage.setItem('accessToken', response.access_token);
+            window.location.href = 'Innotech.html';
+          } else {
+            alert('Authentication failed. Please try again.');
+          }
+        },
+      });
+
+      client.requestAccessToken();
+    }
+
+    document.addEventListener('DOMContentLoaded', initializeAuth);
+  </script>
+</head>
+<body>
+  <p>Redirecting to authenticate...</p>
+</body>
+</html>
