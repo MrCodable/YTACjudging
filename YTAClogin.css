@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.titillium-web-bold {
+    font-family: "Titillium Web", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/* Reset styles */
+body, html {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+  }
+  
+  .login-image {
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /* Centering the login container */
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .input-field {
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .login-btn {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4facfe;
+    color: #f4f4f4;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn:hover {
+    background-color: #00f2fe;
+    color: #000;
+    height: auto;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+  }
+  

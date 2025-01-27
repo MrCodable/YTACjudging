@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/YTAC icon2.png" type="image/png">
+  <title> YTAC </title>
+  <link rel="stylesheet" href="YTAClogin.css">
+  <script>
+    // Check if the user is already logged in
+    if (sessionStorage.getItem("isLoggedIn") === "true") {
+      // Redirect to the judging page
+      window.location.href = "Innotech.html";
+    }
+  </script>
+  <script src="https://apis.google.com/js/api.js" async defer></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body class="titillium-web-bold">
+  <div class="login-container">
+   
+    <div class="login-card">
+       <div class="login-image">
+          <img src="assets/YTAC Logo 2025.png" alt="YTAC Logo" width="300" height="135"/>
+       </div>
+      <div class="header">
+        <h1>Judging System</h1>
+      </div>
+      <p>Please enter your Judges' code to proceed.</p>
+      <form id="loginForm">
+        <input 
+          type="text" 
+          id="userCode" 
+          class="input-field" 
+          placeholder="Enter Judge Code" 
+          required 
+        />
+        <button type="submit" class="login-btn">Login</button>
+        <p id="errorMessage" class="error-message"></p>
+      </form>
+    </div>
+  </div>
+  <script src="YTAClogin.js"></script>
+</body>
+</html>

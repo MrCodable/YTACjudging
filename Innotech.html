@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inno-Tech</title>
+    <link rel="stylesheet" href="Innotech.css">
+    <link rel="icon" href="assets/YTAC icon2.png" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script>
+        // Check if the user is already logged in
+        if (sessionStorage.getItem("isLoggedIn") !== "true") {
+            // Redirect to the login page
+            window.location.href = "YTAClogin.html";
+        }
+        // Display the judge's name
+        document.addEventListener('DOMContentLoaded', () => {
+            const judgeName = sessionStorage.getItem("judgeName") || "Judge";
+            document.getElementById("judge-name").textContent = judgeName;
+        });
+    </script>
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+</head>
+<body>
+    <!-- <button onclick="handleClientLoad()">test</button> -->
+    <div class="container">
+        <div class="login-image">
+            <img src="assets/YTAC Logo 2025.png" alt="YTAC Logo" width="200" height="90"/>
+        </div>
+
+        <h1>Welcome,<br><span id="judge-name">Judge</span></h1>
+        
+        <div class="timer-container">
+            <p id="timer-display">10:00</p>
+            <button id="start-timer-btn" onclick="startTimer()">Start Timer</button>
+            <button id="reset-timer-btn" onclick="resetTimer()">Reset Timer</button>
+        </div>
+        <audio id="alarm-sound" src="assets/timesup.mp3" preload="auto"></audio>
+        
+        <!-- Logout button as a Material Icon -->
+        <button id="logout-btn" onclick="logout()" title="Logout">
+            <span class="material-icons">logout</span>
+        </button>
+
+        <!-- <button type="button" class="logout-sbtn" onclick="logout()">Logout</button> -->
+        <label for="group">Inno-Tech Teams:</label>
+        <select id="group" onchange="updateGroupDetails()">
+            <option value="">Please select a team</option>
+            <!-- Groups will be dynamically added here -->
+        </select>
+
+        <div id="group-details" style="display: none;">
+            <h3>Group Members:</h3>
+            <ol id="members"></ol>
+
+            <h3>Project Name:</h3>
+            <p id="project-name"></p>
+
+            <h3>Judging Criteria:</h3>
+            <div class="criteria">
+                <label for="OC">1. Originality & Creativity: <span id="OC-score">0</span></label>
+                <input type="range" id="OC" min="0" max="10" value="0" oninput="updateScore('OC')">
+            </div>
+
+            <div class="criteria">
+                <label for="UP">2. Usefulness & Practicality: <span id="UP-score">0</span></label>
+                <input type="range" id="UP" min="0" max="10" value="0" oninput="updateScore('UP')">
+            </div>
+
+            <div class="criteria">
+                <label for="FUF">3. Functionality & User-friendliness: <span id="FUF-score">0</span></label>
+                <input type="range" id="FUF" min="0" max="10" value="0" oninput="updateScore('FUF')">
+            </div>
+
+            <div class="criteria">
+                <label for="CE">4. Cost - effective: <span id="CE-score">0</span></label>
+                <input type="range" id="CE" min="0" max="10" value="0" oninput="updateScore('CE')">
+            </div>
+
+            <div class="criteria">
+                <label for="IMP">5. Impact: <span id="IMP-score">0</span></label>
+                <input type="range" id="IMP" min="0" max="10" value="0" oninput="updateScore('IMP')">
+            </div>
+
+            <div class="criteria">
+                <label for="PST">6. Presentation: <span id="PST-score">0</span></label>
+                <input type="range" id="PST" min="0" max="10" value="0" oninput="updateScore('PST')">
+            </div>
+
+            <button class="submit-btn" onclick="submitScores()">Submit Scores</button>
+        </div>
+    </div>
+    
+    <div id="success-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>Success!</h2>
+            <p id="success-message"></p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+    
+    <script src="Innotech.js"></script>
+</body>
+</html>
+
+
