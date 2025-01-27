@@ -10,9 +10,18 @@
 
     <script>
         // Check if the user is already logged in
-       if (!sessionStorage.getItem("isLoggedIn") || !sessionStorage.getItem("accessToken")) {
-          window.location.href = "YTAClogin.html"; // Redirect to login if not authenticated
+       // Extract access token from URL hash
+        const urlParams = new URLSearchParams(window.location.hash.substr(1));
+        const accessToken = urlParams.get('access_token');
+        
+        if (accessToken) {
+          sessionStorage.setItem('accessToken', accessToken);
+          window.location.hash = ''; // Clear URL hash to keep the page clean
+        } else if (!sessionStorage.getItem('accessToken')) {
+          // Redirect to login if access token is missing
+          window.location.href = 'YTAClogin.html';
         }
+
 
         // Display the judge's name
         document.addEventListener('DOMContentLoaded', () => {
