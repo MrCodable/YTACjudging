@@ -9,19 +9,28 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <script>
-        // Check if the user is already logged in
-       // Extract access token from URL hash
+        // Extract access token from URL hash
         const urlParams = new URLSearchParams(window.location.hash.substr(1));
         const accessToken = urlParams.get('access_token');
         
         if (accessToken) {
+          // Store access token and clear the URL hash
           sessionStorage.setItem('accessToken', accessToken);
-          window.location.hash = ''; // Clear URL hash to keep the page clean
+          sessionStorage.setItem('tokenTimestamp', Date.now()); // Save timestamp for token management
+          window.location.hash = ''; // Clear URL hash
         } else if (!sessionStorage.getItem('accessToken')) {
-          // Redirect to login if access token is missing
+          // Redirect to login if no access token exists
           window.location.href = 'YTAClogin.html';
+        } else {
+          // Optional: Check token validity (e.g., expiration based on timestamp)
+          const tokenTimestamp = sessionStorage.getItem('tokenTimestamp');
+          const oneHour = 3600 * 1000; // 1 hour in milliseconds
+          if (Date.now() - tokenTimestamp > oneHour) {
+            alert('Session expired. Please log in again.');
+            sessionStorage.clear();
+            window.location.href = 'YTAClogin.html';
+          }
         }
-
 
         // Display the judge's name
         document.addEventListener('DOMContentLoaded', () => {
