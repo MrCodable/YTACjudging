@@ -10,7 +10,7 @@
   function initializeAuth() {
     const clientId = '258146943914-olah33qa2gcut8vfbc7ijnbho46sqdcf.apps.googleusercontent.com'; // Replace with your OAuth client ID
     const redirectUri = `${window.location.origin}/Innotech.html`; // Redirect back to your app after login
-
+    console.log(redirectUri)
     const authUrl = `https://accounts.google.com/o/oauth2/auth?` +
       `response_type=token&` +
       `client_id=${encodeURIComponent(clientId)}&` +
