@@ -28,31 +28,21 @@ function initClient() {
 }
 
 function initializeAuth() {
-    // const client = google.accounts.oauth2.initTokenClient({
-    //     client_id: '258146943914-olah33qa2gcut8vfbc7ijnbho46sqdcf.apps.googleusercontent.com', // Replace with your Client ID
-    //     scope: 'https://www.googleapis.com/auth/spreadsheets',
-    //     callback: (response) => {
-    //         if (response.access_token) {
-    //             console.log('Access token received:', response.access_token);
-    //             loadGroups(response.access_token); // Pass the access token to your app logic
-    //         } else {
-    //             console.error('Failed to get access token');
-    //         }
-    //     },
-    // });
+    const client = google.accounts.oauth2.initTokenClient({
+        client_id: '258146943914-olah33qa2gcut8vfbc7ijnbho46sqdcf.apps.googleusercontent.com', // Replace with your Client ID
+        scope: 'https://www.googleapis.com/auth/spreadsheets',
+        callback: (response) => {
+            if (response.access_token) {
+                console.log('Access token received:', response.access_token);
+                loadGroups(response.access_token); // Pass the access token to your app logic
+            } else {
+                console.error('Failed to get access token');
+            }
+        },
+    });
 
-    // // Trigger the authentication flow
-    // client.requestAccessToken();
-    const accessToken = sessionStorage.getItem('accessToken');
-
-    if (!accessToken) {
-        alert('Authentication required.');
-        // client.requestAccessToken();
-        window.location.href = 'OAuth.html';
-    } else {
-        console.log('Access token available:', accessToken);
-        loadGroups(accessToken);
-    }
+    // Trigger the authentication flow
+    client.requestAccessToken();
 }
 
 // Fetch groups data from Google Sheets
