@@ -47,8 +47,8 @@ function initializeAuth() {
 
     if (!accessToken) {
         alert('Authentication required.');
-        client.requestAccessToken();
-        // window.location.href = 'OAuth.html';
+        // client.requestAccessToken();
+        window.location.href = 'OAuth.html';
     } else {
         console.log('Access token available:', accessToken);
         loadGroups(accessToken);
