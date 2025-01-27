@@ -277,9 +277,6 @@ function updateScore(id) {
 
 
 function logout() {
-    sessionStorage.removeItem('accessToken');
-    sessionStorage.removeItem('tokenTimestamp');
-    sessionStorage.removeItem('judgeName');
     localStorage.clear();
     sessionStorage.clear();
     window.location.href = "YTAClogin.html";
