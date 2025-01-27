@@ -278,7 +278,7 @@ function updateScore(id) {
 
 function logout() {
     sessionStorage.removeItem("isLoggedIn");
-    window.location.href = "index.html";
+    window.location.href = "YTAClogin.html";
 }
 
 let timerInterval;
