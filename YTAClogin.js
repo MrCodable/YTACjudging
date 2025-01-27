@@ -58,10 +58,7 @@ document.getElementById("loginForm").addEventListener("submit", async function (
       // Save judge name and login status in session storage
       sessionStorage.setItem("isLoggedIn", "true");
       sessionStorage.setItem("judgeName", matchingJudge.name); // Save judge's name
-
-      // Redirect to the judging page
-      history.replaceState(null, null, "Innotech.html");
-      window.location.href = "Innotech.html";
+      window.location.href = "OAuth.html";
   } else {
       // Show error message
       errorMessage.textContent = "Invalid user code. Please try again.";
