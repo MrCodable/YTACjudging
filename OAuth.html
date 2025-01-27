@@ -7,32 +7,20 @@
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 
 <script>
-  const urlParams = new URLSearchParams(window.location.hash.substr(1));
-  const accessToken = urlParams.get('access_token');
-  
-  if (accessToken) {
-    sessionStorage.setItem('accessToken', accessToken);
-    sessionStorage.setItem('tokenTimestamp', Date.now());
-    window.location.hash = ''; // Clear the URL hash
-  } else if (!sessionStorage.getItem('accessToken')) {
-    // Redirect to login or OAuth flow
-    window.location.href = 'YTAClogin.html';
-  }
   function initializeAuth() {
-    const clientId = '258146943914-olah33qa2gcut8vfbc7ijnbho46sqdcf.apps.googleusercontent.com'; // Replace with your OAuth client ID
-    const redirectUri = 'https://mrcodable.github.io/YTACjudging/Innotech.html';//`${window.location.origin}/Innotech.html`; // Redirect back to your app after login
-    
-    const authUrl = `https://accounts.google.com/o/oauth2/auth?` +
-      `response_type=token&` +
-      `client_id=${encodeURIComponent(clientId)}&` +
-      `redirect_uri=${encodeURIComponent(redirectUri)}&` +
-      `scope=${encodeURIComponent('https://www.googleapis.com/auth/spreadsheets')}`;
+      const clientId = '258146943914-olah33qa2gcut8vfbc7ijnbho46sqdcf.apps.googleusercontent.com'; // Replace with your OAuth client ID
+      const redirectUri = 'https://mrcodable.github.io/YTACjudging/Innotech.html';
 
-    // Redirect to Google's OAuth page
-    window.location.href = authUrl;
-  }
+      const authUrl = `https://accounts.google.com/o/oauth2/auth?` +
+        `response_type=token&` +
+        `client_id=${encodeURIComponent(clientId)}&` +
+        `redirect_uri=${encodeURIComponent(redirectUri)}&` +
+        `scope=${encodeURIComponent('https://www.googleapis.com/auth/spreadsheets')}`;
 
-  document.addEventListener('DOMContentLoaded', initializeAuth);
+      window.location.href = authUrl; // Redirect to Google's OAuth page
+    }
+
+    document.addEventListener('DOMContentLoaded', initializeAuth);
 </script>
 </head>
 <body>
