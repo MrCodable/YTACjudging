@@ -19,20 +19,9 @@ function initClient() {
         discoveryDocs: ["https://sheets.googleapis.com/$discovery/rest?version=v4"],
         scope: "https://www.googleapis.com/auth/spreadsheets",
     }).then(() => {
-        const authInstance = gapi.auth2.getAuthInstance();
-        // Check if the user is signed in after a redirect
-        if (authInstance.isSignedIn.get()) {
-            const user = authInstance.currentUser.get();
-            console.log("Signed in successfully:", user.getBasicProfile().getName());
-            const accessToken = user.getAuthResponse().access_token;
-            loadGroups(accessToken); // Pass the access token to load groups
-        } else {
-            // Start the redirect-based OAuth flow
-            authInstance.signIn({
-                ux_mode: "redirect",
-                redirect_uri: "https://mrcodable.github.io", // Replace with your hosting domain
-            });
-        }
+        gapi.auth2.getAuthInstance().signIn().then(() => {
+            console.log("Signed in successfully.");
+        });
     }).catch(error => {
         console.error("Error initializing API client:", error);
     });
