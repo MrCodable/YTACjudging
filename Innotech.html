@@ -14,22 +14,32 @@
         const accessToken = urlParams.get('access_token');
         
         if (accessToken) {
-          // Store access token and clear the URL hash
+          // Store the access token in sessionStorage
           sessionStorage.setItem('accessToken', accessToken);
-          sessionStorage.setItem('tokenTimestamp', Date.now()); // Save timestamp for token management
-          window.location.hash = ''; // Clear URL hash
+          sessionStorage.setItem('tokenTimestamp', Date.now()); // Save timestamp for token expiration
+          window.location.hash = ''; // Clear the URL hash
         } else if (!sessionStorage.getItem('accessToken')) {
           // Redirect to login if no access token exists
+          alert('Authentication is required. Redirecting...');
           window.location.href = 'YTAClogin.html';
+        }
+        
+        // Use the access token for API requests
+        const storedToken = sessionStorage.getItem('accessToken');
+        if (storedToken) {
+          // Pass storedToken to your Google Sheets API requests
+          console.log('Access token available:', storedToken);
         } else {
-          // Optional: Check token validity (e.g., expiration based on timestamp)
-          const tokenTimestamp = sessionStorage.getItem('tokenTimestamp');
-          const oneHour = 3600 * 1000; // 1 hour in milliseconds
-          if (Date.now() - tokenTimestamp > oneHour) {
-            alert('Session expired. Please log in again.');
-            sessionStorage.clear();
-            window.location.href = 'YTAClogin.html';
-          }
+          console.error('No access token found.');
+        }
+
+        const tokenTimestamp = sessionStorage.getItem('tokenTimestamp');
+        const oneHour = 3600 * 1000; // 1 hour in milliseconds
+        
+        if (Date.now() - tokenTimestamp > oneHour) {
+          alert('Session expired. Please log in again.');
+          sessionStorage.clear(); // Clear session storage
+          window.location.href = 'YTAClogin.html'; // Redirect to login
         }
 
         // Display the judge's name
