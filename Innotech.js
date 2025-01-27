@@ -279,6 +279,8 @@ function updateScore(id) {
 function logout() {
     localStorage.clear();
     sessionStorage.clear();
+    const googleLogoutUrl = 'https://accounts.google.com/Logout';
+    window.location.href = googleLogoutUrl;
     window.location.href = "YTAClogin.html";
 }
 
