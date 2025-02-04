@@ -1,93 +1,93 @@
 {
     "Judges_Account": [
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "usercode": "yen1400"
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "usercode": "ang6614"
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "usercode": "aat6164"
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "usercode": "ohd3260"
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "usercode": "hoo6561"
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "usercode": "rus3421"
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "usercode": "iew0362"
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "usercode": "ali6356"
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "usercode": "ali4556"
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "usercode": "din6655"
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "usercode": "sup4002"
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "usercode": "him5510"
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "usercode": "lah5064"
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "usercode": "emi4104"
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "usercode": "ang1022"
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "usercode": "nam4622"
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "usercode": "lah1600"
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "usercode": "don3342"
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "usercode": "mad6631"
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "usercode": "aan6005"
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "usercode": "iee4416"
         }
     ],
     "Judged_Data": [
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member1": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member2": null,
@@ -103,7 +103,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "ELEVEN ONE INNOVATION TEAM A",
             "Member1": "MUHAMMAD FAIQ ZAFRAN BIN MOHD FAZLIN",
             "Member2": "MYZAN HAZIEQRY BIN MUZAINY",
@@ -119,7 +119,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "ELEVEN ONE INNOVATION TEAM B",
             "Member1": "ADAM FIRAS BIN MOHD HANIF",
             "Member2": "AYDEN FIRHAD BIN FIRDAUS",
@@ -135,7 +135,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "TEAM PAWTECT",
             "Member1": "DAVIDE PLANCHENSTAINER",
             "Member2": "ISAAC CHUNG JIA JIE",
@@ -151,7 +151,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "MASTERMIND",
             "Member1": "JASMINE LIEW SHAN QIN",
             "Member2": "MERLYANA TING AK KESI",
@@ -167,7 +167,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "LITTLE SMART GIRLS",
             "Member1": "ANGEL WA TZE EN",
             "Member2": "ALICIA YEO ZI QIAN",
@@ -183,7 +183,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "JARRETT BONG ZHEN HONG",
             "Member1": "JARRETT BONG ZHEN HONG",
             "Member2": null,
@@ -199,7 +199,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "KrussMakers",
             "Member1": "NUR AFIQAH AMANINA BINTI MOHD ZAKI",
             "Member2": "NUR QALILLAH ANNESHA BINTI MODHI",
@@ -215,7 +215,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "THE VERSESLENS",
             "Member1": "NUR INSYIRAH BALQEES BINTI MOHD ANUAR",
             "Member2": "AMIR FARHAN BIN SULAIMAN",
@@ -231,7 +231,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "BABY SHARK",
             "Member1": "GABRIEL HO KHENG YIP",
             "Member2": "HOU ZEYU",
@@ -247,7 +247,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "OMNIPOTENT",
             "Member1": "HUAN KAH SHENG",
             "Member2": "ALDEN VOON WU HAN",
@@ -263,7 +263,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "VISIONARY",
             "Member1": "NICOLE TING",
             "Member2": "BENECIA RINA ANAK HARRY",
@@ -279,7 +279,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "G SMART",
             "Member1": "ARRINNA JANENERA CHUA",
             "Member2": "AZRENA ARISA ANAK SHANICCA",
@@ -295,7 +295,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "Idea Xperts",
             "Member1": "KHOO TIAN YOU",
             "Member2": "KHOO JING XIANG",
@@ -311,7 +311,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "CHAN PHUI NEE",
             "Member1": "CHAN PHUI NEE",
             "Member2": null,
@@ -327,7 +327,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "KC1 Code Girls",
             "Member1": "RENAE PHUAH SHER MAE",
             "Member2": "HILLARY TAN YUN XI",
@@ -343,7 +343,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "Duck Genius",
             "Member1": "CORNELIA LIEW ZI LING",
             "Member2": "VIREN LIEW TAO MING",
@@ -359,7 +359,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "YC KIDZ FUNTASTIC",
             "Member1": "RYAN TAN",
             "Member2": "SAMUEL OON EN TECK",
@@ -375,7 +375,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "VIGEEL",
             "Member1": "MUHAMMAD FAIZ BIN ZUBAIRY ",
             "Member2": "AHMAD KHALIS AFIF BIN KAMARUZMAN ",
@@ -391,7 +391,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "GoFund",
             "Member1": "AHMAD DANIEL BIN AHMAD SHUKRI ",
             "Member2": "AHMAD SYAHMI BIN MOHD SUKRI ",
@@ -407,7 +407,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "QUEMATE",
             "Member1": "CHE WAN NURUL INSYIRAH BT CHE WAN ADnull ",
             "Member2": "NAJLAA' TIHANI BINTI MOHD SUKRI ",
@@ -423,7 +423,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "VERSES LENS STUDIO",
             "Member1": "AMIR FARHAN BIN SULAIMAN  ",
             "Member2": "NUR INSYIRAH BALQEES BT MOHD ANUAR ",
@@ -439,7 +439,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "TRI INVENTOR",
             "Member1": "HANIS RAIHANAH BINTI RAZMI",
             "Member2": "REYNA CASSANDRA JEBLY",
@@ -455,7 +455,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "SK MATA PARANG",
             "Member1": "NUR AISYA INSYIRA DARAHIM BINTI ABDULLAH",
             "Member2": "NUR LIYANA ZAHIRAH BINTI JAMALUDDIN",
@@ -471,7 +471,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "SYNTAX SIRENS",
             "Member1": "DANIA NUR ALESHA BINTI DILAH",
             "Member2": "FLORISZA LIDANG HO ",
@@ -487,7 +487,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "SK TERASI YOUNG STEMIST",
             "Member1": "MUHAMMAD QAISER FARISH BIN KHAIRUL AMRIEY HAMZAH",
             "Member2": "VELLARYNNA ADELE LEE",
@@ -503,7 +503,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "REDBEAN",
             "Member1": "ADELINE WONG JING YA",
             "Member2": "LING YUE HUA",
@@ -519,7 +519,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "TEAM SERAPHA",
             "Member1": "DAMIEN SEE WEI JIEN ",
             "Member2": "JANSEN TAN CHIAN JIUN",
@@ -535,7 +535,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "Team PREDICT",
             "Member1": "LOW ZE ZAYNE",
             "Member2": "HEW JIN SHENG ",
@@ -551,7 +551,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "Team GED",
             "Member1": "DEVYN KOAY CHIN XIAN ",
             "Member2": "GAVIN YEOH JUN XUAN",
@@ -567,7 +567,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "Skin Squad",
             "Member1": "VICTOR HII JUN SIONG",
             "Member2": "FRANCO YAW ZHI WEN",
@@ -583,7 +583,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "YC VITAL SQUAD",
             "Member1": "LEE ZHUO YAN",
             "Member2": "TANG QIAN YU",
@@ -599,7 +599,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "Heart Accents",
             "Member1": "NG KENG JOE",
             "Member2": "ONG JUN CHEN ",
@@ -615,7 +615,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "INGAT",
             "Member1": "MUHAMMAD ADIB FATIH BIN MOHAMAD KHALIL",
             "Member2": "WAN IRSYAD HANnull BIN WAN ZUL AZRI",
@@ -631,7 +631,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "FELIZ LOH LI FEI",
             "Member1": "FELIZ LOH LI FEI",
             "Member2": null,
@@ -647,7 +647,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "HH BOYS",
             "Member1": "YAP JIA HAO",
             "Member2": "YAP JIA HER",
@@ -663,7 +663,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "ECLIPSED SOULS",
             "Member1": "LUCAS TAN ZHONG ZHEN ",
             "Member2": "RISHAAN RAEES BIN MOHD SUKRI",
@@ -679,7 +679,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "KINETICRIDES",
             "Member1": "ADAM MUQRI BIN ADIMAN",
             "Member2": "IRIS ASHEKIN BINTI NAZARUDDIN ",
@@ -695,7 +695,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "TRIPLE A",
             "Member1": "ALICIA SIM",
             "Member2": "ARYAN KHALIF BIN AZAHARI",
@@ -711,7 +711,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "GREEN GUARDIANS",
             "Member1": "AMANDA ANDANG ANAK ALBERT",
             "Member2": "IZZ QISYA ZARA BT MOHAMAD SHAFIZAN",
@@ -727,7 +727,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "SICK JYIN SHUAEN",
             "Member1": "SICK JYIN SHUAEN",
             "Member2": null,
@@ -743,7 +743,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "ROAD RANGERS",
             "Member1": "SHO VERN NEE",
             "Member2": "GISELLE LIM JIE EE",
@@ -759,7 +759,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "Alpha SKDMM",
             "Member1": "Arissa binti Mohd Faried",
             "Member2": null,
@@ -775,7 +775,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "I-TAR (TASHEEL ARABIC INNOVATION)",
             "Member1": "MUHAMMAD HAFIZIN FAHMI BIN MOHD HAMDAN ",
             "Member2": "AHMAD WAJDAN BIN MOHD SHAFIEE ",
@@ -791,7 +791,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "EXCELLIGENZ.CO",
             "Member1": "AHMAD ADLIN RAYYAN BIN AHMAD TARMIZEE",
             "Member2": "IZZ DANIAL URZAIZ BIN HAZLI",
@@ -807,7 +807,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "SPARKSTERS",
             "Member1": "AZRINA ZATASHAH BINTI SHAMSUL ROHOR ",
             "Member2": "NUR INSYIRAH BATRISYIA BINTI MOHD FAISAL",
@@ -823,7 +823,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "MIN MANG",
             "Member1": "MIITHRAN A/L GUNA BALAN",
             "Member2": "AHMAD MANSUR ISKANDAR",
@@ -839,7 +839,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "BUDAYA",
             "Member1": "HARIS HAIDAR BIN HISHAMUDDIN",
             "Member2": "HAZIQ HAIDAR BIN HISHAMUDDIN",
@@ -855,7 +855,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "KC TEAM",
             "Member1": "FELIX LAW YEE TENG",
             "Member2": "JAYVIER WONG HUANG ZHE",
@@ -871,7 +871,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "EUNICE LAW EN HUI",
             "Member1": "EUNICE LAW EN HUI",
             "Member2": "JAYNEE LOO YEE XUAN",
@@ -887,7 +887,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "SPACE INOVATION",
             "Member1": "PUTERI NUR QASEH NAJIHAH BINTI BERAHIM",
             "Member2": "RIFQAH QISTINA BINTI ROSLI",
@@ -903,7 +903,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "STEM SK BELIONG",
             "Member1": "ALAUDDIN ASHRAF BIN ARDI",
             "Member2": "MUHAMMAD IRFAN RAYQAL BIN SAM",
@@ -919,7 +919,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "RAYUMU VAZE TECHNOLOGY",
             "Member1": "RASID BIN IRWANSA",
             "Member2": "MUHAMAD YUNUS BIN BOSLEE",
@@ -935,7 +935,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "The Grand Trio",
             "Member1": "ASHER PAU SIN HIENG",
             "Member2": "EDRIC WONG JOO SING",
@@ -951,7 +951,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "WAYNE",
             "Member1": "NUR AFZA FARIHAH BINTI JOHARI ",
             "Member2": "NUR RAZANAH SYAHINDAH BINTI SUDIRMAN",
@@ -967,7 +967,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "T&S",
             "Member1": "WANG YOUMIN",
             "Member2": null,
@@ -983,7 +983,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member1": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member2": null,
@@ -999,7 +999,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "ELEVEN ONE INNOVATION TEAM A",
             "Member1": "MUHAMMAD FAIQ ZAFRAN BIN MOHD FAZLIN",
             "Member2": "MYZAN HAZIEQRY BIN MUZAINY",
@@ -1015,7 +1015,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "ELEVEN ONE INNOVATION TEAM B",
             "Member1": "ADAM FIRAS BIN MOHD HANIF",
             "Member2": "AYDEN FIRHAD BIN FIRDAUS",
@@ -1031,7 +1031,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "TEAM PAWTECT",
             "Member1": "DAVIDE PLANCHENSTAINER",
             "Member2": "ISAAC CHUNG JIA JIE",
@@ -1047,7 +1047,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "MASTERMIND",
             "Member1": "JASMINE LIEW SHAN QIN",
             "Member2": "MERLYANA TING AK KESI",
@@ -1063,7 +1063,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "LITTLE SMART GIRLS",
             "Member1": "ANGEL WA TZE EN",
             "Member2": "ALICIA YEO ZI QIAN",
@@ -1079,7 +1079,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "JARRETT BONG ZHEN HONG",
             "Member1": "JARRETT BONG ZHEN HONG",
             "Member2": null,
@@ -1095,7 +1095,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "KrussMakers",
             "Member1": "NUR AFIQAH AMANINA BINTI MOHD ZAKI",
             "Member2": "NUR QALILLAH ANNESHA BINTI MODHI",
@@ -1111,7 +1111,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "THE VERSESLENS",
             "Member1": "NUR INSYIRAH BALQEES BINTI MOHD ANUAR",
             "Member2": "AMIR FARHAN BIN SULAIMAN",
@@ -1127,7 +1127,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "BABY SHARK",
             "Member1": "GABRIEL HO KHENG YIP",
             "Member2": "HOU ZEYU",
@@ -1143,7 +1143,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "OMNIPOTENT",
             "Member1": "HUAN KAH SHENG",
             "Member2": "ALDEN VOON WU HAN",
@@ -1159,7 +1159,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "VISIONARY",
             "Member1": "NICOLE TING",
             "Member2": "BENECIA RINA ANAK HARRY",
@@ -1175,7 +1175,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "G SMART",
             "Member1": "ARRINNA JANENERA CHUA",
             "Member2": "AZRENA ARISA ANAK SHANICCA",
@@ -1191,7 +1191,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "Idea Xperts",
             "Member1": "KHOO TIAN YOU",
             "Member2": "KHOO JING XIANG",
@@ -1207,7 +1207,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "CHAN PHUI NEE",
             "Member1": "CHAN PHUI NEE",
             "Member2": null,
@@ -1223,7 +1223,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "KC1 Code Girls",
             "Member1": "RENAE PHUAH SHER MAE",
             "Member2": "HILLARY TAN YUN XI",
@@ -1239,7 +1239,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "Duck Genius",
             "Member1": "CORNELIA LIEW ZI LING",
             "Member2": "VIREN LIEW TAO MING",
@@ -1255,7 +1255,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "YC KIDZ FUNTASTIC",
             "Member1": "RYAN TAN",
             "Member2": "SAMUEL OON EN TECK",
@@ -1271,7 +1271,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "VIGEEL",
             "Member1": "MUHAMMAD FAIZ BIN ZUBAIRY ",
             "Member2": "AHMAD KHALIS AFIF BIN KAMARUZMAN ",
@@ -1287,7 +1287,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "GoFund",
             "Member1": "AHMAD DANIEL BIN AHMAD SHUKRI ",
             "Member2": "AHMAD SYAHMI BIN MOHD SUKRI ",
@@ -1303,7 +1303,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "QUEMATE",
             "Member1": "CHE WAN NURUL INSYIRAH BT CHE WAN ADnull ",
             "Member2": "NAJLAA' TIHANI BINTI MOHD SUKRI ",
@@ -1319,7 +1319,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "VERSES LENS STUDIO",
             "Member1": "AMIR FARHAN BIN SULAIMAN  ",
             "Member2": "NUR INSYIRAH BALQEES BT MOHD ANUAR ",
@@ -1335,7 +1335,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "TRI INVENTOR",
             "Member1": "HANIS RAIHANAH BINTI RAZMI",
             "Member2": "REYNA CASSANDRA JEBLY",
@@ -1351,7 +1351,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "SK MATA PARANG",
             "Member1": "NUR AISYA INSYIRA DARAHIM BINTI ABDULLAH",
             "Member2": "NUR LIYANA ZAHIRAH BINTI JAMALUDDIN",
@@ -1367,7 +1367,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "SYNTAX SIRENS",
             "Member1": "DANIA NUR ALESHA BINTI DILAH",
             "Member2": "FLORISZA LIDANG HO ",
@@ -1383,7 +1383,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "SK TERASI YOUNG STEMIST",
             "Member1": "MUHAMMAD QAISER FARISH BIN KHAIRUL AMRIEY HAMZAH",
             "Member2": "VELLARYNNA ADELE LEE",
@@ -1399,7 +1399,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "REDBEAN",
             "Member1": "ADELINE WONG JING YA",
             "Member2": "LING YUE HUA",
@@ -1415,7 +1415,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "TEAM SERAPHA",
             "Member1": "DAMIEN SEE WEI JIEN ",
             "Member2": "JANSEN TAN CHIAN JIUN",
@@ -1431,7 +1431,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "Team PREDICT",
             "Member1": "LOW ZE ZAYNE",
             "Member2": "HEW JIN SHENG ",
@@ -1447,7 +1447,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "Team GED",
             "Member1": "DEVYN KOAY CHIN XIAN ",
             "Member2": "GAVIN YEOH JUN XUAN",
@@ -1463,7 +1463,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "Skin Squad",
             "Member1": "VICTOR HII JUN SIONG",
             "Member2": "FRANCO YAW ZHI WEN",
@@ -1479,7 +1479,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "YC VITAL SQUAD",
             "Member1": "LEE ZHUO YAN",
             "Member2": "TANG QIAN YU",
@@ -1495,7 +1495,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "Heart Accents",
             "Member1": "NG KENG JOE",
             "Member2": "ONG JUN CHEN ",
@@ -1511,7 +1511,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "INGAT",
             "Member1": "MUHAMMAD ADIB FATIH BIN MOHAMAD KHALIL",
             "Member2": "WAN IRSYAD HANnull BIN WAN ZUL AZRI",
@@ -1527,7 +1527,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "FELIZ LOH LI FEI",
             "Member1": "FELIZ LOH LI FEI",
             "Member2": null,
@@ -1543,7 +1543,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "HH BOYS",
             "Member1": "YAP JIA HAO",
             "Member2": "YAP JIA HER",
@@ -1559,7 +1559,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "ECLIPSED SOULS",
             "Member1": "LUCAS TAN ZHONG ZHEN ",
             "Member2": "RISHAAN RAEES BIN MOHD SUKRI",
@@ -1575,7 +1575,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "KINETICRIDES",
             "Member1": "ADAM MUQRI BIN ADIMAN",
             "Member2": "IRIS ASHEKIN BINTI NAZARUDDIN ",
@@ -1591,7 +1591,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "TRIPLE A",
             "Member1": "ALICIA SIM",
             "Member2": "ARYAN KHALIF BIN AZAHARI",
@@ -1607,7 +1607,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "GREEN GUARDIANS",
             "Member1": "AMANDA ANDANG ANAK ALBERT",
             "Member2": "IZZ QISYA ZARA BT MOHAMAD SHAFIZAN",
@@ -1623,7 +1623,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "SICK JYIN SHUAEN",
             "Member1": "SICK JYIN SHUAEN",
             "Member2": null,
@@ -1639,7 +1639,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "ROAD RANGERS",
             "Member1": "SHO VERN NEE",
             "Member2": "GISELLE LIM JIE EE",
@@ -1655,7 +1655,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "Alpha SKDMM",
             "Member1": "Arissa binti Mohd Faried",
             "Member2": null,
@@ -1671,7 +1671,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "I-TAR (TASHEEL ARABIC INNOVATION)",
             "Member1": "MUHAMMAD HAFIZIN FAHMI BIN MOHD HAMDAN ",
             "Member2": "AHMAD WAJDAN BIN MOHD SHAFIEE ",
@@ -1687,7 +1687,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "EXCELLIGENZ.CO",
             "Member1": "AHMAD ADLIN RAYYAN BIN AHMAD TARMIZEE",
             "Member2": "IZZ DANIAL URZAIZ BIN HAZLI",
@@ -1703,7 +1703,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "SPARKSTERS",
             "Member1": "AZRINA ZATASHAH BINTI SHAMSUL ROHOR ",
             "Member2": "NUR INSYIRAH BATRISYIA BINTI MOHD FAISAL",
@@ -1719,7 +1719,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "MIN MANG",
             "Member1": "MIITHRAN A/L GUNA BALAN",
             "Member2": "AHMAD MANSUR ISKANDAR",
@@ -1735,7 +1735,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "BUDAYA",
             "Member1": "HARIS HAIDAR BIN HISHAMUDDIN",
             "Member2": "HAZIQ HAIDAR BIN HISHAMUDDIN",
@@ -1751,7 +1751,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "KC TEAM",
             "Member1": "FELIX LAW YEE TENG",
             "Member2": "JAYVIER WONG HUANG ZHE",
@@ -1767,7 +1767,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "EUNICE LAW EN HUI",
             "Member1": "EUNICE LAW EN HUI",
             "Member2": "JAYNEE LOO YEE XUAN",
@@ -1783,7 +1783,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "SPACE INOVATION",
             "Member1": "PUTERI NUR QASEH NAJIHAH BINTI BERAHIM",
             "Member2": "RIFQAH QISTINA BINTI ROSLI",
@@ -1799,7 +1799,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "STEM SK BELIONG",
             "Member1": "ALAUDDIN ASHRAF BIN ARDI",
             "Member2": "MUHAMMAD IRFAN RAYQAL BIN SAM",
@@ -1815,7 +1815,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "RAYUMU VAZE TECHNOLOGY",
             "Member1": "RASID BIN IRWANSA",
             "Member2": "MUHAMAD YUNUS BIN BOSLEE",
@@ -1831,7 +1831,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "The Grand Trio",
             "Member1": "ASHER PAU SIN HIENG",
             "Member2": "EDRIC WONG JOO SING",
@@ -1847,7 +1847,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "WAYNE",
             "Member1": "NUR AFZA FARIHAH BINTI JOHARI ",
             "Member2": "NUR RAZANAH SYAHINDAH BINTI SUDIRMAN",
@@ -1863,7 +1863,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "T&S",
             "Member1": "WANG YOUMIN",
             "Member2": null,
@@ -1879,7 +1879,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member1": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member2": null,
@@ -1895,7 +1895,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "ELEVEN ONE INNOVATION TEAM A",
             "Member1": "MUHAMMAD FAIQ ZAFRAN BIN MOHD FAZLIN",
             "Member2": "MYZAN HAZIEQRY BIN MUZAINY",
@@ -1911,7 +1911,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "ELEVEN ONE INNOVATION TEAM B",
             "Member1": "ADAM FIRAS BIN MOHD HANIF",
             "Member2": "AYDEN FIRHAD BIN FIRDAUS",
@@ -1927,7 +1927,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "TEAM PAWTECT",
             "Member1": "DAVIDE PLANCHENSTAINER",
             "Member2": "ISAAC CHUNG JIA JIE",
@@ -1943,7 +1943,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "MASTERMIND",
             "Member1": "JASMINE LIEW SHAN QIN",
             "Member2": "MERLYANA TING AK KESI",
@@ -1959,7 +1959,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "LITTLE SMART GIRLS",
             "Member1": "ANGEL WA TZE EN",
             "Member2": "ALICIA YEO ZI QIAN",
@@ -1975,7 +1975,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "JARRETT BONG ZHEN HONG",
             "Member1": "JARRETT BONG ZHEN HONG",
             "Member2": null,
@@ -1991,7 +1991,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "KrussMakers",
             "Member1": "NUR AFIQAH AMANINA BINTI MOHD ZAKI",
             "Member2": "NUR QALILLAH ANNESHA BINTI MODHI",
@@ -2007,7 +2007,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "THE VERSESLENS",
             "Member1": "NUR INSYIRAH BALQEES BINTI MOHD ANUAR",
             "Member2": "AMIR FARHAN BIN SULAIMAN",
@@ -2023,7 +2023,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "BABY SHARK",
             "Member1": "GABRIEL HO KHENG YIP",
             "Member2": "HOU ZEYU",
@@ -2039,7 +2039,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "OMNIPOTENT",
             "Member1": "HUAN KAH SHENG",
             "Member2": "ALDEN VOON WU HAN",
@@ -2055,7 +2055,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "VISIONARY",
             "Member1": "NICOLE TING",
             "Member2": "BENECIA RINA ANAK HARRY",
@@ -2071,7 +2071,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "G SMART",
             "Member1": "ARRINNA JANENERA CHUA",
             "Member2": "AZRENA ARISA ANAK SHANICCA",
@@ -2087,7 +2087,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "Idea Xperts",
             "Member1": "KHOO TIAN YOU",
             "Member2": "KHOO JING XIANG",
@@ -2103,7 +2103,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "CHAN PHUI NEE",
             "Member1": "CHAN PHUI NEE",
             "Member2": null,
@@ -2119,7 +2119,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "KC1 Code Girls",
             "Member1": "RENAE PHUAH SHER MAE",
             "Member2": "HILLARY TAN YUN XI",
@@ -2135,7 +2135,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "Duck Genius",
             "Member1": "CORNELIA LIEW ZI LING",
             "Member2": "VIREN LIEW TAO MING",
@@ -2151,7 +2151,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "YC KIDZ FUNTASTIC",
             "Member1": "RYAN TAN",
             "Member2": "SAMUEL OON EN TECK",
@@ -2167,7 +2167,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "VIGEEL",
             "Member1": "MUHAMMAD FAIZ BIN ZUBAIRY ",
             "Member2": "AHMAD KHALIS AFIF BIN KAMARUZMAN ",
@@ -2183,7 +2183,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "GoFund",
             "Member1": "AHMAD DANIEL BIN AHMAD SHUKRI ",
             "Member2": "AHMAD SYAHMI BIN MOHD SUKRI ",
@@ -2199,7 +2199,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "QUEMATE",
             "Member1": "CHE WAN NURUL INSYIRAH BT CHE WAN ADnull ",
             "Member2": "NAJLAA' TIHANI BINTI MOHD SUKRI ",
@@ -2215,7 +2215,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "VERSES LENS STUDIO",
             "Member1": "AMIR FARHAN BIN SULAIMAN  ",
             "Member2": "NUR INSYIRAH BALQEES BT MOHD ANUAR ",
@@ -2231,7 +2231,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "TRI INVENTOR",
             "Member1": "HANIS RAIHANAH BINTI RAZMI",
             "Member2": "REYNA CASSANDRA JEBLY",
@@ -2247,7 +2247,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "SK MATA PARANG",
             "Member1": "NUR AISYA INSYIRA DARAHIM BINTI ABDULLAH",
             "Member2": "NUR LIYANA ZAHIRAH BINTI JAMALUDDIN",
@@ -2263,7 +2263,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "SYNTAX SIRENS",
             "Member1": "DANIA NUR ALESHA BINTI DILAH",
             "Member2": "FLORISZA LIDANG HO ",
@@ -2279,7 +2279,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "SK TERASI YOUNG STEMIST",
             "Member1": "MUHAMMAD QAISER FARISH BIN KHAIRUL AMRIEY HAMZAH",
             "Member2": "VELLARYNNA ADELE LEE",
@@ -2295,7 +2295,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "REDBEAN",
             "Member1": "ADELINE WONG JING YA",
             "Member2": "LING YUE HUA",
@@ -2311,7 +2311,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "TEAM SERAPHA",
             "Member1": "DAMIEN SEE WEI JIEN ",
             "Member2": "JANSEN TAN CHIAN JIUN",
@@ -2327,7 +2327,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "Team PREDICT",
             "Member1": "LOW ZE ZAYNE",
             "Member2": "HEW JIN SHENG ",
@@ -2343,7 +2343,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "Team GED",
             "Member1": "DEVYN KOAY CHIN XIAN ",
             "Member2": "GAVIN YEOH JUN XUAN",
@@ -2359,7 +2359,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "Skin Squad",
             "Member1": "VICTOR HII JUN SIONG",
             "Member2": "FRANCO YAW ZHI WEN",
@@ -2375,7 +2375,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "YC VITAL SQUAD",
             "Member1": "LEE ZHUO YAN",
             "Member2": "TANG QIAN YU",
@@ -2391,7 +2391,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "Heart Accents",
             "Member1": "NG KENG JOE",
             "Member2": "ONG JUN CHEN ",
@@ -2407,7 +2407,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "INGAT",
             "Member1": "MUHAMMAD ADIB FATIH BIN MOHAMAD KHALIL",
             "Member2": "WAN IRSYAD HANnull BIN WAN ZUL AZRI",
@@ -2423,7 +2423,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "FELIZ LOH LI FEI",
             "Member1": "FELIZ LOH LI FEI",
             "Member2": null,
@@ -2439,7 +2439,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "HH BOYS",
             "Member1": "YAP JIA HAO",
             "Member2": "YAP JIA HER",
@@ -2455,7 +2455,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "ECLIPSED SOULS",
             "Member1": "LUCAS TAN ZHONG ZHEN ",
             "Member2": "RISHAAN RAEES BIN MOHD SUKRI",
@@ -2471,7 +2471,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "KINETICRIDES",
             "Member1": "ADAM MUQRI BIN ADIMAN",
             "Member2": "IRIS ASHEKIN BINTI NAZARUDDIN ",
@@ -2487,7 +2487,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "TRIPLE A",
             "Member1": "ALICIA SIM",
             "Member2": "ARYAN KHALIF BIN AZAHARI",
@@ -2503,7 +2503,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "GREEN GUARDIANS",
             "Member1": "AMANDA ANDANG ANAK ALBERT",
             "Member2": "IZZ QISYA ZARA BT MOHAMAD SHAFIZAN",
@@ -2519,7 +2519,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "SICK JYIN SHUAEN",
             "Member1": "SICK JYIN SHUAEN",
             "Member2": null,
@@ -2535,7 +2535,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "ROAD RANGERS",
             "Member1": "SHO VERN NEE",
             "Member2": "GISELLE LIM JIE EE",
@@ -2551,7 +2551,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "Alpha SKDMM",
             "Member1": "Arissa binti Mohd Faried",
             "Member2": null,
@@ -2567,7 +2567,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "I-TAR (TASHEEL ARABIC INNOVATION)",
             "Member1": "MUHAMMAD HAFIZIN FAHMI BIN MOHD HAMDAN ",
             "Member2": "AHMAD WAJDAN BIN MOHD SHAFIEE ",
@@ -2583,7 +2583,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "EXCELLIGENZ.CO",
             "Member1": "AHMAD ADLIN RAYYAN BIN AHMAD TARMIZEE",
             "Member2": "IZZ DANIAL URZAIZ BIN HAZLI",
@@ -2599,7 +2599,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "SPARKSTERS",
             "Member1": "AZRINA ZATASHAH BINTI SHAMSUL ROHOR ",
             "Member2": "NUR INSYIRAH BATRISYIA BINTI MOHD FAISAL",
@@ -2615,7 +2615,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "MIN MANG",
             "Member1": "MIITHRAN A/L GUNA BALAN",
             "Member2": "AHMAD MANSUR ISKANDAR",
@@ -2631,7 +2631,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "BUDAYA",
             "Member1": "HARIS HAIDAR BIN HISHAMUDDIN",
             "Member2": "HAZIQ HAIDAR BIN HISHAMUDDIN",
@@ -2647,7 +2647,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "KC TEAM",
             "Member1": "FELIX LAW YEE TENG",
             "Member2": "JAYVIER WONG HUANG ZHE",
@@ -2663,7 +2663,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "EUNICE LAW EN HUI",
             "Member1": "EUNICE LAW EN HUI",
             "Member2": "JAYNEE LOO YEE XUAN",
@@ -2679,7 +2679,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "SPACE INOVATION",
             "Member1": "PUTERI NUR QASEH NAJIHAH BINTI BERAHIM",
             "Member2": "RIFQAH QISTINA BINTI ROSLI",
@@ -2695,7 +2695,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "STEM SK BELIONG",
             "Member1": "ALAUDDIN ASHRAF BIN ARDI",
             "Member2": "MUHAMMAD IRFAN RAYQAL BIN SAM",
@@ -2711,7 +2711,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "RAYUMU VAZE TECHNOLOGY",
             "Member1": "RASID BIN IRWANSA",
             "Member2": "MUHAMAD YUNUS BIN BOSLEE",
@@ -2727,7 +2727,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "The Grand Trio",
             "Member1": "ASHER PAU SIN HIENG",
             "Member2": "EDRIC WONG JOO SING",
@@ -2743,7 +2743,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "WAYNE",
             "Member1": "NUR AFZA FARIHAH BINTI JOHARI ",
             "Member2": "NUR RAZANAH SYAHINDAH BINTI SUDIRMAN",
@@ -2759,7 +2759,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "T&S",
             "Member1": "WANG YOUMIN",
             "Member2": null,
@@ -2775,7 +2775,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member1": "SABRINA KONG BINTI HARIS KONG ENG MING",
             "Member2": null,
@@ -2791,7 +2791,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "ELEVEN ONE INNOVATION TEAM A",
             "Member1": "MUHAMMAD FAIQ ZAFRAN BIN MOHD FAZLIN",
             "Member2": "MYZAN HAZIEQRY BIN MUZAINY",
@@ -2807,7 +2807,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "ELEVEN ONE INNOVATION TEAM B",
             "Member1": "ADAM FIRAS BIN MOHD HANIF",
             "Member2": "AYDEN FIRHAD BIN FIRDAUS",
@@ -2823,7 +2823,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "TEAM PAWTECT",
             "Member1": "DAVIDE PLANCHENSTAINER",
             "Member2": "ISAAC CHUNG JIA JIE",
@@ -2839,7 +2839,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "MASTERMIND",
             "Member1": "JASMINE LIEW SHAN QIN",
             "Member2": "MERLYANA TING AK KESI",
@@ -2855,7 +2855,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "LITTLE SMART GIRLS",
             "Member1": "ANGEL WA TZE EN",
             "Member2": "ALICIA YEO ZI QIAN",
@@ -2871,7 +2871,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "JARRETT BONG ZHEN HONG",
             "Member1": "JARRETT BONG ZHEN HONG",
             "Member2": null,
@@ -2887,7 +2887,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "KrussMakers",
             "Member1": "NUR AFIQAH AMANINA BINTI MOHD ZAKI",
             "Member2": "NUR QALILLAH ANNESHA BINTI MODHI",
@@ -2903,7 +2903,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "THE VERSESLENS",
             "Member1": "NUR INSYIRAH BALQEES BINTI MOHD ANUAR",
             "Member2": "AMIR FARHAN BIN SULAIMAN",
@@ -2919,7 +2919,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "BABY SHARK",
             "Member1": "GABRIEL HO KHENG YIP",
             "Member2": "HOU ZEYU",
@@ -2935,7 +2935,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "OMNIPOTENT",
             "Member1": "HUAN KAH SHENG",
             "Member2": "ALDEN VOON WU HAN",
@@ -2951,7 +2951,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "VISIONARY",
             "Member1": "NICOLE TING",
             "Member2": "BENECIA RINA ANAK HARRY",
@@ -2967,7 +2967,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "G SMART",
             "Member1": "ARRINNA JANENERA CHUA",
             "Member2": "AZRENA ARISA ANAK SHANICCA",
@@ -2983,7 +2983,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "Idea Xperts",
             "Member1": "KHOO TIAN YOU",
             "Member2": "KHOO JING XIANG",
@@ -2999,7 +2999,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "CHAN PHUI NEE",
             "Member1": "CHAN PHUI NEE",
             "Member2": null,
@@ -3015,7 +3015,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "KC1 Code Girls",
             "Member1": "RENAE PHUAH SHER MAE",
             "Member2": "HILLARY TAN YUN XI",
@@ -3031,7 +3031,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "Duck Genius",
             "Member1": "CORNELIA LIEW ZI LING",
             "Member2": "VIREN LIEW TAO MING",
@@ -3047,7 +3047,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "YC KIDZ FUNTASTIC",
             "Member1": "RYAN TAN",
             "Member2": "SAMUEL OON EN TECK",
@@ -3063,7 +3063,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "VIGEEL",
             "Member1": "MUHAMMAD FAIZ BIN ZUBAIRY ",
             "Member2": "AHMAD KHALIS AFIF BIN KAMARUZMAN ",
@@ -3079,7 +3079,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "GoFund",
             "Member1": "AHMAD DANIEL BIN AHMAD SHUKRI ",
             "Member2": "AHMAD SYAHMI BIN MOHD SUKRI ",
@@ -3095,7 +3095,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "QUEMATE",
             "Member1": "CHE WAN NURUL INSYIRAH BT CHE WAN ADnull ",
             "Member2": "NAJLAA' TIHANI BINTI MOHD SUKRI ",
@@ -3111,7 +3111,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "VERSES LENS STUDIO",
             "Member1": "AMIR FARHAN BIN SULAIMAN  ",
             "Member2": "NUR INSYIRAH BALQEES BT MOHD ANUAR ",
@@ -3127,7 +3127,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "TRI INVENTOR",
             "Member1": "HANIS RAIHANAH BINTI RAZMI",
             "Member2": "REYNA CASSANDRA JEBLY",
@@ -3143,7 +3143,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "SK MATA PARANG",
             "Member1": "NUR AISYA INSYIRA DARAHIM BINTI ABDULLAH",
             "Member2": "NUR LIYANA ZAHIRAH BINTI JAMALUDDIN",
@@ -3159,7 +3159,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "SYNTAX SIRENS",
             "Member1": "DANIA NUR ALESHA BINTI DILAH",
             "Member2": "FLORISZA LIDANG HO ",
@@ -3175,7 +3175,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "SK TERASI YOUNG STEMIST",
             "Member1": "MUHAMMAD QAISER FARISH BIN KHAIRUL AMRIEY HAMZAH",
             "Member2": "VELLARYNNA ADELE LEE",
@@ -3191,7 +3191,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "REDBEAN",
             "Member1": "ADELINE WONG JING YA",
             "Member2": "LING YUE HUA",
@@ -3207,7 +3207,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "TEAM SERAPHA",
             "Member1": "DAMIEN SEE WEI JIEN ",
             "Member2": "JANSEN TAN CHIAN JIUN",
@@ -3223,7 +3223,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "Team PREDICT",
             "Member1": "LOW ZE ZAYNE",
             "Member2": "HEW JIN SHENG ",
@@ -3239,7 +3239,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "Team GED",
             "Member1": "DEVYN KOAY CHIN XIAN ",
             "Member2": "GAVIN YEOH JUN XUAN",
@@ -3255,7 +3255,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "Skin Squad",
             "Member1": "VICTOR HII JUN SIONG",
             "Member2": "FRANCO YAW ZHI WEN",
@@ -3271,7 +3271,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "YC VITAL SQUAD",
             "Member1": "LEE ZHUO YAN",
             "Member2": "TANG QIAN YU",
@@ -3287,7 +3287,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "Heart Accents",
             "Member1": "NG KENG JOE",
             "Member2": "ONG JUN CHEN ",
@@ -3303,7 +3303,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "INGAT",
             "Member1": "MUHAMMAD ADIB FATIH BIN MOHAMAD KHALIL",
             "Member2": "WAN IRSYAD HANnull BIN WAN ZUL AZRI",
@@ -3319,7 +3319,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "FELIZ LOH LI FEI",
             "Member1": "FELIZ LOH LI FEI",
             "Member2": null,
@@ -3335,7 +3335,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts. Saidi bin Rasemi",
+            "Judgename": "Ts. Saidi bin Rasemi",
             "Team": "HH BOYS",
             "Member1": "YAP JIA HAO",
             "Member2": "YAP JIA HER",
@@ -3351,7 +3351,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Prisicilla Anak Ngabang",
+            "Judgename": "Cikgu Prisicilla Anak Ngabang",
             "Team": "ECLIPSED SOULS",
             "Member1": "LUCAS TAN ZHONG ZHEN ",
             "Member2": "RISHAAN RAEES BIN MOHD SUKRI",
@@ -3367,7 +3367,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Banu Latha A/P Maielraganam",
+            "Judgename": "Cikgu Banu Latha A/P Maielraganam",
             "Team": "KINETICRIDES",
             "Member1": "ADAM MUQRI BIN ADIMAN",
             "Member2": "IRIS ASHEKIN BINTI NAZARUDDIN ",
@@ -3383,7 +3383,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Issnu bin Dollah",
+            "Judgename": "Cikgu Issnu bin Dollah",
             "Team": "TRIPLE A",
             "Member1": "ALICIA SIM",
             "Member2": "ARYAN KHALIF BIN AZAHARI",
@@ -3399,7 +3399,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Mohd Ariffin bin Madon",
+            "Judgename": "Cikgu Mohd Ariffin bin Madon",
             "Team": "GREEN GUARDIANS",
             "Member1": "AMANDA ANDANG ANAK ALBERT",
             "Member2": "IZZ QISYA ZARA BT MOHAMAD SHAFIZAN",
@@ -3415,7 +3415,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Iswandy bin Ahamad",
+            "Judgename": "Cikgu Iswandy bin Ahamad",
             "Team": "SICK JYIN SHUAEN",
             "Member1": "SICK JYIN SHUAEN",
             "Member2": null,
@@ -3431,7 +3431,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Ling Kah Tsaan",
+            "Judgename": "Cikgu Ling Kah Tsaan",
             "Team": "ROAD RANGERS",
             "Member1": "SHO VERN NEE",
             "Member2": "GISELLE LIM JIE EE",
@@ -3447,7 +3447,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Raihan bin Sapiee",
+            "Judgename": "Cikgu Raihan bin Sapiee",
             "Team": "Alpha SKDMM",
             "Member1": "Arissa binti Mohd Faried",
             "Member2": null,
@@ -3463,7 +3463,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof.Ts. Dr. Khong Heng Yen",
+            "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
             "Team": "I-TAR (TASHEEL ARABIC INNOVATION)",
             "Member1": "MUHAMMAD HAFIZIN FAHMI BIN MOHD HAMDAN ",
             "Member2": "AHMAD WAJDAN BIN MOHD SHAFIEE ",
@@ -3479,7 +3479,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mr. Raymond Maurice Anak Stephan Bujang",
+            "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
             "Team": "EXCELLIGENZ.CO",
             "Member1": "AHMAD ADLIN RAYYAN BIN AHMAD TARMIZEE",
             "Member2": "IZZ DANIAL URZAIZ BIN HAZLI",
@@ -3495,7 +3495,7 @@
             "Title": null
         },
         {
-            "Judge name": "Ts Zamri bin Sahaat",
+            "Judgename": "Ts Zamri bin Sahaat",
             "Team": "SPARKSTERS",
             "Member1": "AZRINA ZATASHAH BINTI SHAMSUL ROHOR ",
             "Member2": "NUR INSYIRAH BATRISYIA BINTI MOHD FAISAL",
@@ -3511,7 +3511,7 @@
             "Title": null
         },
         {
-            "Judge name": "Prof. Dr. Saiful Bahari bin Mohd",
+            "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
             "Team": "MIN MANG",
             "Member1": "MIITHRAN A/L GUNA BALAN",
             "Member2": "AHMAD MANSUR ISKANDAR",
@@ -3527,7 +3527,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Dr. Leong Siow Hoo",
+            "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
             "Team": "BUDAYA",
             "Member1": "HARIS HAIDAR BIN HISHAMUDDIN",
             "Member2": "HAZIQ HAIDAR BIN HISHAMUDDIN",
@@ -3543,7 +3543,7 @@
             "Title": null
         },
         {
-            "Judge name": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+            "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
             "Team": "KC TEAM",
             "Member1": "FELIX LAW YEE TENG",
             "Member2": "JAYVIER WONG HUANG ZHE",
@@ -3559,7 +3559,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Liew Fui Kiew",
+            "Judgename": "Dr. Liew Fui Kiew",
             "Team": "EUNICE LAW EN HUI",
             "Member1": "EUNICE LAW EN HUI",
             "Member2": "JAYNEE LOO YEE XUAN",
@@ -3575,7 +3575,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Nur Tahirah binti Razali",
+            "Judgename": "Dr. Nur Tahirah binti Razali",
             "Team": "SPACE INOVATION",
             "Member1": "PUTERI NUR QASEH NAJIHAH BINTI BERAHIM",
             "Member2": "RIFQAH QISTINA BINTI ROSLI",
@@ -3591,7 +3591,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Annisa binti Jamali",
+            "Judgename": "Dr. Annisa binti Jamali",
             "Team": "STEM SK BELIONG",
             "Member1": "ALAUDDIN ASHRAF BIN ARDI",
             "Member2": "MUHAMMAD IRFAN RAYQAL BIN SAM",
@@ -3607,7 +3607,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+            "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
             "Team": "RAYUMU VAZE TECHNOLOGY",
             "Member1": "RASID BIN IRWANSA",
             "Member2": "MUHAMAD YUNUS BIN BOSLEE",
@@ -3623,7 +3623,7 @@
             "Title": null
         },
         {
-            "Judge name": "Dr. Norfadzlan bin Yusup",
+            "Judgename": "Dr. Norfadzlan bin Yusup",
             "Team": "The Grand Trio",
             "Member1": "ASHER PAU SIN HIENG",
             "Member2": "EDRIC WONG JOO SING",
@@ -3639,7 +3639,7 @@
             "Title": null
         },
         {
-            "Judge name": "Mdm. Zalina binti Ibrahim",
+            "Judgename": "Mdm. Zalina binti Ibrahim",
             "Team": "WAYNE",
             "Member1": "NUR AFZA FARIHAH BINTI JOHARI ",
             "Member2": "NUR RAZANAH SYAHINDAH BINTI SUDIRMAN",
@@ -3655,7 +3655,7 @@
             "Title": null
         },
         {
-            "Judge name": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+            "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
             "Team": "T&S",
             "Member1": "WANG YOUMIN",
             "Member2": null,
