@@ -1,7 +1,7 @@
 name: Update JSON File
 
 on:
-  # workflow_dispatch:  # Allows the workflow to be triggered manually from JS
+  workflow_dispatch:  # Allows the workflow to be triggered manually from JS
   push:
     branches:
       - main  # Runs when a commit is pushed to the main branch
