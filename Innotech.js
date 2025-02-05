@@ -3,7 +3,7 @@ const GITHUB_JSON_URL = "https://raw.githubusercontent.com/MrCodable/YTACjudging
 const GITHUB_USERNAME = "MrCodable";
 const REPO_NAME = "YTACjudging";
 const FILE_PATH = "judging_data.json";  // JSON file in repo
-const GITHUB_TOKEN = "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";  // ⚠️ Keep this secret
+const GITHUB_TOKEN = "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";  // ⚠️ Keep this secret
 const GITHUB_API_URL = "https://api.github.com/repos/MrCodable/YTACjudging/contents/judging_data.json";
 
 let judgedData = []; // Store JSON data for updating later
