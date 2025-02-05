@@ -1,13 +1,13 @@
 name: Update JSON File
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Allows manual trigger from JavaScript
   push:
     branches:
       - main
 
 permissions:
-  contents: write
+  contents: write  # Grants permission to write to the repository
 
 jobs:
   update-json:
@@ -16,22 +16,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Load GitHub Token
+      - name: Update JSON File
         env:
-          GH_TOKEN: ${{ secrets.TOKEN }}
-        run: |
-          echo "GitHub Token Loaded"
-
-      - name: Decode and Save JSON
-        run: |
-          echo '${{ secrets.JSON_CONTENT }}' | base64 --decode > judging_data.json
-
-      - name: Upload Updated JSON to GitHub
-        env:
-          GH_TOKEN: ${{ secrets.TOKEN }}
+          GH_TOKEN: ${{ secrets.TOKEN }}  # Use the stored secret token
         run: |
           COMMIT_MESSAGE="Automated JSON Update"
-          BRANCH_NAME="main"
           FILE_PATH="judging_data.json"
 
           # Get file SHA
