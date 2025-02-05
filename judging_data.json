@@ -1,4 +1,90 @@
 {
+  "Judges_Account": [
+    {
+      "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
+      "usercode": "yen1400"
+    },
+    {
+      "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
+      "usercode": "ang6614"
+    },
+    {
+      "Judgename": "Ts Zamri bin Sahaat",
+      "usercode": "aat6164"
+    },
+    {
+      "Judgename": "Prof. Dr. Saiful Bahari bin Mohd",
+      "usercode": "ohd3260"
+    },
+    {
+      "Judgename": "Assoc. Prof. Dr. Leong Siow Hoo",
+      "usercode": "hoo6561"
+    },
+    {
+      "Judgename": "Assoc. Prof. Ts Dr. Clotilda Petrus",
+      "usercode": "rus3421"
+    },
+    {
+      "Judgename": "Dr. Liew Fui Kiew",
+      "usercode": "iew0362"
+    },
+    {
+      "Judgename": "Dr. Nur Tahirah binti Razali",
+      "usercode": "ali6356"
+    },
+    {
+      "Judgename": "Dr. Annisa binti Jamali",
+      "usercode": "ali4556"
+    },
+    {
+      "Judgename": "Dr. Abang Mohammad Nizam bin Abang Kamaruddin",
+      "usercode": "din6655"
+    },
+    {
+      "Judgename": "Dr. Norfadzlan bin Yusup",
+      "usercode": "sup4002"
+    },
+    {
+      "Judgename": "Mdm. Zalina binti Ibrahim",
+      "usercode": "him5510"
+    },
+    {
+      "Judgename": "Cikgu Bibi Izzatul Sahima binti Sheikh Rahimullah",
+      "usercode": "lah5064"
+    },
+    {
+      "Judgename": "Ts. Saidi bin Rasemi",
+      "usercode": "emi4104"
+    },
+    {
+      "Judgename": "Cikgu Prisicilla Anak Ngabang",
+      "usercode": "ang1022"
+    },
+    {
+      "Judgename": "Cikgu Banu Latha A/P Maielraganam",
+      "usercode": "nam4622"
+    },
+    {
+      "Judgename": "Cikgu Issnu bin Dollah",
+      "usercode": "lah1600"
+    },
+    {
+      "Judgename": "Cikgu Mohd Ariffin bin Madon",
+      "usercode": "don3342"
+    },
+    {
+      "Judgename": "Cikgu Iswandy bin Ahamad",
+      "usercode": "mad6631"
+    },
+    {
+      "Judgename": "Cikgu Ling Kah Tsaan",
+      "usercode": "aan6005"
+    },
+    {
+      "Judgename": "Cikgu Raihan bin Sapiee",
+      "usercode": "iee4416"
+    }
+  ],
   "Judged_Data": [
     {
       "Judgename": "Prof.Ts. Dr. Khong Heng Yen",
@@ -7,16 +93,14 @@
       "Member2": "",
       "Member3": "",
       "Project name": "IoT SMART EYES",
-      "Originality & Creativity": 2,
-      "Usefulness & Practicality": 1,
-      "Functionality & User-friendliness": 2,
-      "Cost - effective": 2,
-      "Impact": 2,
-      "Presentation": 2,
+      "Originality & Creativity": 0,
+      "Usefulness & Practicality": 0,
+      "Functionality & User-friendliness": 0,
+      "Cost - effective": 0,
+      "Impact": 0,
+      "Presentation": 0,
       "Comment": "",
-      "Title": "",
-      "Judge Comment": "test",
-      "Award Title": "Gold"
+      "Title": ""
     },
     {
       "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
@@ -352,9 +436,7 @@
       "Impact": 0,
       "Presentation": 0,
       "Comment": "",
-      "Title": "",
-      "Judge Comment": "test2",
-      "Award Title": "Silver"
+      "Title": ""
     },
     {
       "Judgename": "Mr. Raymond Maurice Anak Stephan Bujang",
