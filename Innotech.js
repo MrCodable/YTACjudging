@@ -286,7 +286,7 @@ async function saveUpdatedScores() {
     const GITHUB_REPO = "MrCodable/YTACjudging";
     const GITHUB_WORKFLOW = "update-json.yml"; // Name of the GitHub Actions workflow file
 
-    const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/.github/workflows/${GITHUB_WORKFLOW}/dispatches`, {
+    const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`, {
         method: "POST",
         headers: {
             "Accept": "application/vnd.github.v3+json",
