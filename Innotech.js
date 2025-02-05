@@ -3,7 +3,6 @@ const GITHUB_JSON_URL = "https://raw.githubusercontent.com/MrCodable/YTACjudging
 const GITHUB_USERNAME = "MrCodable";
 const REPO_NAME = "YTACjudging";
 const FILE_PATH = "judging_data.json";  // JSON file in repo
-const GITHUB_TOKEN = "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";  // ⚠️ Keep this secret
 const GITHUB_API_URL = "https://api.github.com/repos/MrCodable/YTACjudging/contents/judging_data.json";
 
 let judgedData = []; // Store JSON data for updating later
@@ -290,7 +289,6 @@ async function saveUpdatedScores() {
     const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`, {
         method: "POST",
         headers: {
-            "Authorization": `Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`, // Store in GitHub Secrets if possible
             "Accept": "application/vnd.github.v3+json",
             "Content-Type": "application/json"
         },
