@@ -11,7 +11,6 @@ let timeLeft = 600; // Default to 10 minutes (600 seconds)
 let isPaused = true; // Track if timer is paused
 const alarmSound = document.getElementById("alarm-sound");
 
-
 // **Logout Functionality**
 document.addEventListener("DOMContentLoaded", function () {
     const logoutButton = document.getElementById("logout-btn");
@@ -284,24 +283,22 @@ document.getElementById("submit-scores").addEventListener("click", submitScores)
 
 async function saveUpdatedScores() {
     const GITHUB_REPO = "MrCodable/YTACjudging";
-    const GITHUB_WORKFLOW = "update-json.yml"; // Name of the GitHub Actions workflow file
+    const GITHUB_WORKFLOW = "update-json.yml"; // Workflow file name
 
-    const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`, {
+    let response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`, {
         method: "POST",
         headers: {
             "Accept": "application/vnd.github.v3+json",
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({
-            ref: "main" // Change if using a different branch
-        })
+        body: JSON.stringify({ ref: "main" })
     });
 
     if (response.ok) {
         alert("✅ Scores submitted! GitHub Actions will update the JSON file shortly.");
     } else {
         console.error("❌ Failed to trigger GitHub Actions:", await response.text());
-        alert("❌ Error triggering JSON update. Try again later.");
+        alert("❌ Error triggering JSON update. Make sure your GitHub token has 'repo' and 'workflow' permissions.");
     }
 }
 
