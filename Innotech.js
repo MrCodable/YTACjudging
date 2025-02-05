@@ -239,49 +239,74 @@ document.getElementById("submit-scores").addEventListener("click", submitScores)
 
 
 // Function to update GitHub JSON
+// async function saveUpdatedScores() {
+//     const url = "https://api.github.com/repos/MrCodable/YTACjudging/contents/judging_data.json";
+
+//     // **Check if JSON exists before updating**
+//     const response = await fetch(url, {
+//         headers: {
+//             "Authorization": `token ${GITHUB_TOKEN}`,
+//             "Accept": "application/vnd.github.v3+json"
+//         }
+//     });
+
+//     if (!response.ok) {
+//         console.error("❌ Failed to fetch JSON:", await response.text());
+//         alert("❌ Error: JSON file not found. Make sure judging_data.json exists in your GitHub repository.");
+//         return;
+//     }
+
+//     const fileData = await response.json();
+//     const sha = fileData.sha; // Required to update the file
+
+//     const updatedContent = btoa(unescape(encodeURIComponent(JSON.stringify({ Judged_Data: judgedData }, null, 2))));
+
+//     const updateResponse = await fetch(url, {
+//         method: "PUT",
+//         headers: {
+//             "Authorization": `token ${GITHUB_TOKEN}`,
+//             "Accept": "application/vnd.github.v3+json",
+//             "Content-Type": "application/json"
+//         },
+//         body: JSON.stringify({
+//             message: "Updated scores, comments, and awards",
+//             content: updatedContent,
+//             sha: sha
+//         })
+//     });
+
+//     if (updateResponse.ok) {
+//         alert("✅ Scores successfully updated!");
+//     } else {
+//         console.error("❌ Failed to update scores:", await updateResponse.text());
+//         alert("❌ Error saving scores. Try again later.");
+//     }
+// }
+
 async function saveUpdatedScores() {
-    const url = "https://api.github.com/repos/MrCodable/YTACjudging/contents/judging_data.json";
+    const GITHUB_REPO = "MrCodable/YTACjudging";
+    const GITHUB_WORKFLOW = "update-json.yml"; // Name of the GitHub Actions workflow file
 
-    // **Check if JSON exists before updating**
-    const response = await fetch(url, {
+    const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${GITHUB_WORKFLOW}/dispatches`, {
+        method: "POST",
         headers: {
-            "Authorization": `token ${GITHUB_TOKEN}`,
-            "Accept": "application/vnd.github.v3+json"
-        }
-    });
-
-    if (!response.ok) {
-        console.error("❌ Failed to fetch JSON:", await response.text());
-        alert("❌ Error: JSON file not found. Make sure judging_data.json exists in your GitHub repository.");
-        return;
-    }
-
-    const fileData = await response.json();
-    const sha = fileData.sha; // Required to update the file
-
-    const updatedContent = btoa(unescape(encodeURIComponent(JSON.stringify({ Judged_Data: judgedData }, null, 2))));
-
-    const updateResponse = await fetch(url, {
-        method: "PUT",
-        headers: {
-            "Authorization": `token ${GITHUB_TOKEN}`,
+            "Authorization": `Bearer YOUR_GITHUB_PERSONAL_ACCESS_TOKEN`, // Store in GitHub Secrets if possible
             "Accept": "application/vnd.github.v3+json",
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            message: "Updated scores, comments, and awards",
-            content: updatedContent,
-            sha: sha
+            ref: "main" // Change if using a different branch
         })
     });
 
-    if (updateResponse.ok) {
-        alert("✅ Scores successfully updated!");
+    if (response.ok) {
+        alert("✅ Scores submitted! GitHub Actions will update the JSON file shortly.");
     } else {
-        console.error("❌ Failed to update scores:", await updateResponse.text());
-        alert("❌ Error saving scores. Try again later.");
+        console.error("❌ Failed to trigger GitHub Actions:", await response.text());
+        alert("❌ Error triggering JSON update. Try again later.");
     }
 }
+
 
 
 
