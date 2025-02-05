@@ -1,0 +1,150 @@
+/* Updated YTAClogin.css */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 10px;
+  font-family: "Titillium Web", sans-serif;
+  background: linear-gradient(to right bottom, #00222e, #72c6bc);
+  color: white;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  max-width: 90%; /* Responsive width for smaller screens */
+  color: #333;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 90%; /* Adjusted to fit the container */
+  max-width: 350px; /* Ensure it doesn't stretch too wide */
+  padding: 10px;
+  margin: 15px auto; /* Center-align */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  display: block; /* Ensure block layout */
+}
+
+.login-btn {
+  width: 40%;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b5067;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #093545;
+}
+
+/* Updated Innotech.css */
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.criteria {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f4f9fc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.comment-box {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.shortcut-btn {
+    background: #1e3c72;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.timer-input {
+    width: 50px;
+    text-align: center;
+}
+
+.award-selection {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.award-btn {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.gold-btn { background: gold; }
+.silver-btn { background: silver; }
+.bronze-btn { background: #cd7f32; }
+
+
+@media (max-width: 768px) {
+  .login-card {
+      width: 90%; /* Adjust container width for smaller screens */
+      padding: 20px;
+  }
+
+  .input-field {
+      font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+      width: 95%; /* Further adjust for very small screens */
+  }
+
+  .input-field {
+      font-size: 10px;
+  }
+}

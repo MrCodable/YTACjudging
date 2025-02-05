@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inno-Tech Judging</title>
+    <link rel="stylesheet" href="Innotech.css">
+    <link rel="icon" href="assets/YTAC icon2.png" type="image/png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <audio id="alarm-sound">
+        <source src="assets/timesup.mp3" type="audio/mp3">
+    </audio>
+    
+    
+    <div class="container">
+        <button id="logout-btn">Logout</button>
+        <div class="login-image">
+            <img src="assets/YTAC Logo 2025.png" alt="YTAC Logo" width="200" height="90" />
+        </div>
+
+        <h1>Welcome<br><span id="judge-name">Judge</span></h1>
+
+        <div class="timer-container">
+            <div class="timer-controls">
+                <button id="increase-timer-btn" class="timer-adjust-btn" >▲</button>
+                <p id="timer-display">10:00</p>
+                <button id="decrease-timer-btn" class="timer-adjust-btn" >▼</button>
+            </div>
+            <button id="start-timer-btn">Start</button>
+            <button id="reset-timer-btn">Reset</button>
+        </div>
+        
+
+        <label for="group">Inno-Tech Teams:</label>
+        <select id="group" onchange="displayTeamDetails(this.value)">
+            <option value="">Please select a team</option>
+        </select>
+
+        <div id="group-details" style="display: none;">
+            <h3>Group Members:</h3>
+            <ol id="members"></ol>
+
+            <h3>Project Name:</h3>
+            <p id="project-name"></p>
+
+            <h3>Judging Criteria:</h3>
+
+            <!-- Originality & Creativity -->
+            <div class="criteria">
+                <label for="OC">1. Originality & Creativity: <span id="OC-score">0</span></label>
+                <input type="range" id="OC" min="0" max="10" value="0" oninput="updateScore('OC')">
+            </div>
+
+            <!-- Usefulness & Practicality -->
+            <div class="criteria">
+                <label for="UP">2. Usefulness & Practicality: <span id="UP-score">0</span></label>
+                <input type="range" id="UP" min="0" max="10" value="0" oninput="updateScore('UP')">
+            </div>
+
+            <!-- Functionality & User-Friendliness -->
+            <div class="criteria">
+                <label for="FU">3. Functionality & User-Friendliness: <span id="FU-score">0</span></label>
+                <input type="range" id="FU" min="0" max="10" value="0" oninput="updateScore('FU')">
+            </div>
+
+            <!-- Cost-Effectiveness -->
+            <div class="criteria">
+                <label for="CE">4. Cost-Effectiveness: <span id="CE-score">0</span></label>
+                <input type="range" id="CE" min="0" max="10" value="0" oninput="updateScore('CE')">
+            </div>
+
+            <!-- Impact -->
+            <div class="criteria">
+                <label for="IM">5. Impact: <span id="IM-score">0</span></label>
+                <input type="range" id="IM" min="0" max="10" value="0" oninput="updateScore('IM')">
+            </div>
+
+            <!-- Presentation -->
+            <div class="criteria">
+                <label for="PR">6. Presentation: <span id="PR-score">0</span></label>
+                <input type="range" id="PR" min="0" max="10" value="0" oninput="updateScore('PR')">
+            </div>
+
+            <!-- General Comment Box (Only One) -->
+            <div class="judge-comment">
+                <h3>Judge's Comments:</h3>
+                <textarea id="general-comment" placeholder="Write your feedback here..." rows="4"></textarea>
+            </div>
+
+            <!-- Award Selection Section -->
+            <div class="award-selection">
+                <h3>Certificate's Grade:</h3>
+                <select id="award-selection">
+                    <option value="">Select Grade</option>
+                    <option value="Gold">🏅 Gold</option>
+                    <option value="Silver">🥈 Silver</option>
+                    <option value="Bronze">🥉 Bronze</option>
+                </select>
+            </div>
+
+
+            <button id="submit-scores" class="submit-btn">Submit Scores</button>
+        </div>
+    </div>
+
+    <div id="success-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2>Success!</h2>
+            <p id="success-message"></p>
+            <button onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
+    <script src="Innotech.js"></script>
+</body>
+</html>
