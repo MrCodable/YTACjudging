@@ -60,12 +60,11 @@ function toggleTimer() {
         timer = setInterval(() => {
             if (timeLeft <= 0) {
                 clearInterval(timer);
-                startButton.textContent = "Start"; // Reset button text when time runs out
                 isPaused = true;
                 // **Play the alarm when time is up**
                 alarmSound.play();
                 startButton.textContent = "Start"; // Change button text back to "Start"
-                startButton.style.backgroundColor = "#4facfe";
+                startButton.style.backgroundColor = "#00222e";
                 return;
             }
             timeLeft--;
@@ -76,7 +75,7 @@ function toggleTimer() {
         isPaused = true;
         clearInterval(timer);
         startButton.textContent = "Start"; // Change button text back to "Start"
-        startButton.style.backgroundColor = "#4facfe";
+        startButton.style.backgroundColor = "#00222e";
     }
 }
 
@@ -86,7 +85,7 @@ function resetTimer() {
     timeLeft = 600; // Reset to 10 minutes
     updateTimerDisplay();
     document.getElementById("start-timer-btn").textContent = "Start";
-    document.getElementById("start-timer-btn").style.backgroundColor = "#4facfe";
+    document.getElementById("start-timer-btn").style.backgroundColor = "#00222e";
 }
 
 // Function to adjust time manually (increase/decrease)
